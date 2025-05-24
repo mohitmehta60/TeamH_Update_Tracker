@@ -33,7 +33,7 @@ function App() {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center min-h-screen">
+      <div className="flex items-center justify-center min-h-screen bg-gray-900">
         <motion.div
           animate={{
             scale: [1, 1.2, 1],
@@ -43,7 +43,7 @@ function App() {
             repeat: Infinity,
             repeatType: "loop"
           }}
-          className="text-2xl font-semibold text-primary-600"
+          className="text-2xl font-semibold text-blue-400"
         >
           Loading...
         </motion.div>
@@ -52,13 +52,13 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-gray-900">
       <Header />
       
       <main className="flex-grow">
         <ProjectOverview />
         
-        <section id="team" className="py-20 bg-gray-50">
+        <section id="team" className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
           <div className="container mx-auto px-4">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -72,7 +72,7 @@ function App() {
           </div>
         </section>
         
-        <section id="updates" className="py-20 bg-white">
+        <section id="updates" className="py-20 bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800">
           <div className="container mx-auto px-4">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
