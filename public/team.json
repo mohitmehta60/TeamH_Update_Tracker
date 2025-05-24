@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Johnson",
+    "role": "Project Lead",
+    "photo": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "bio": "Full-stack developer with 5+ years of experience in React and Node.js. Leading the architecture and development strategy.",
+    "social": {
+      "linkedin": "https://linkedin.com/in/alexjohnson",
+      "github": "https://github.com/alexjohnson",
+      "twitter": "https://twitter.com/alexjohnson"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Samantha Chen",
+    "role": "UI/UX Designer",
+    "photo": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "bio": "Creative designer focusing on user experience and interface design. Passionate about creating intuitive and beautiful digital experiences.",
+    "social": {
+      "linkedin": "https://linkedin.com/in/samanthachen",
+      "github": "https://github.com/samchen",
+      "twitter": "https://twitter.com/samchen_design"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Marcus Williams",
+    "role": "Backend Developer",
+    "photo": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "bio": "Specializing in API design, database architecture, and server optimization. Committed to building scalable and efficient systems.",
+    "social": {
+      "linkedin": "https://linkedin.com/in/marcuswilliams",
+      "github": "https://github.com/mwilliams",
+      "twitter": "https://twitter.com/marcusw_dev"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Priya Patel",
+    "role": "Frontend Developer",
+    "photo": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "bio": "React specialist with a focus on component architecture and state management. Creating responsive and accessible user interfaces.",
+    "social": {
+      "linkedin": "https://linkedin.com/in/priyapatel",
+      "github": "https://github.com/priyap",
+      "twitter": "https://twitter.com/priya_codes"
+    }
+  },
+  {
+    "id": 5,
+    "name": "David Kim",
+    "role": "DevOps Engineer",
+    "photo": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "bio": "Automation enthusiast experienced in CI/CD pipelines, cloud infrastructure, and containerization. Ensuring smooth deployments and reliable systems.",
+    "social": {
+      "linkedin": "https://linkedin.com/in/davidkim",
+      "github": "https://github.com/dkim",
+      "twitter": "https://twitter.com/davidk_devops"
+    }
+  }
+]

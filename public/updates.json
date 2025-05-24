@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "memberName": "Alex Johnson",
+    "date": "2025-02-14",
+    "content": "Set up the initial project repository with React and established our Git workflow. Created the base component structure and routing system.",
+    "media": {
+      "type": "image",
+      "url": "https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  },
+  {
+    "id": 2,
+    "memberName": "Samantha Chen",
+    "date": "2025-02-14",
+    "content": "Finalized the design system with our color palette, typography, and component styles. Created wireframes for all main views and shared with the team for feedback.",
+    "media": {
+      "type": "image",
+      "url": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  },
+  {
+    "id": 3,
+    "memberName": "Marcus Williams",
+    "date": "2025-02-14",
+    "content": "Implemented the database schema and set up the initial API endpoints. Created documentation for the backend architecture to share with the team.",
+    "media": {
+      "type": "image",
+      "url": "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  },
+  {
+    "id": 4,
+    "memberName": "Priya Patel",
+    "date": "2025-02-15",
+    "content": "Built the first set of reusable components including buttons, cards, and form elements. Added Storybook documentation for the component library.",
+    "media": null
+  },
+  {
+    "id": 5,
+    "memberName": "David Kim",
+    "date": "2025-02-15",
+    "content": "Set up CI/CD pipeline with GitHub Actions. Configured staging environment and automated deployment process for smoother workflow.",
+    "media": {
+      "type": "image",
+      "url": "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  },
+  {
+    "id": 6,
+    "memberName": "Alex Johnson",
+    "date": "2025-02-16",
+    "content": "Implemented user authentication flow with protected routes. Added session management and user context across the application.",
+    "media": null
+  },
+  {
+    "id": 7,
+    "memberName": "Samantha Chen",
+    "date": "2025-02-16",
+    "content": "Refined the responsive design for mobile devices. Created animation prototypes for key user interactions to enhance UX.",
+    "media": {
+      "type": "image",
+      "url": "https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  },
+  {
+    "id": 8,
+    "memberName": "Marcus Williams",
+    "date": "2025-02-17",
+    "content": "Optimized database queries for improved performance. Implemented caching layer to reduce API response times.",
+    "media": null
+  },
+  {
+    "id": 9,
+    "memberName": "Priya Patel",
+    "date": "2025-02-17",
+    "content": "Integrated state management with Redux for complex application state. Created custom hooks for common functionality.",
+    "media": {
+      "type": "image",
+      "url": "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  },
+  {
+    "id": 10,
+    "memberName": "David Kim",
+    "date": "2025-02-18",
+    "content": "Set up monitoring and logging infrastructure. Implemented error tracking to quickly identify and fix production issues.",
+    "media": null
+  }
+]
