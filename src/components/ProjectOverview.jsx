@@ -45,13 +45,8 @@ const ProjectOverview = () => {
             (d-Git)
           </motion.h1>
           
-<<<<<<< HEAD
           {/* <motion.p 
             className="text-xl text-gray-700 mb-8"
-=======
-          <motion.p 
-            className="text-xl text-gray-300 mb-8"
->>>>>>> 5b1018d2e0af549a049c0f0f016d428cfd3d5d3d
             variants={itemVariants}
           >
             An innovative web application for collaborative productivity and team management.
