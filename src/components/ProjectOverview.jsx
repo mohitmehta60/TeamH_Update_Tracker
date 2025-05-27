@@ -45,8 +45,13 @@ const ProjectOverview = () => {
             (d-Git)
           </motion.h1>
           
+<<<<<<< HEAD
           {/* <motion.p 
             className="text-xl text-gray-700 mb-8"
+=======
+          <motion.p 
+            className="text-xl text-gray-300 mb-8"
+>>>>>>> 5b1018d2e0af549a049c0f0f016d428cfd3d5d3d
             variants={itemVariants}
           >
             An innovative web application for collaborative productivity and team management.
@@ -60,8 +65,8 @@ const ProjectOverview = () => {
               {techStack.map((tech, index) => (
                 <motion.span
                   key={index}
-                  className="px-4 py-2 bg-white rounded-full text-sm font-medium text-primary-600 shadow-soft"
-                  whileHover={{ y: -5, boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)' }}
+                  className="px-4 py-2 dark-card rounded-full text-sm font-medium text-blue-400 shadow-soft border border-gray-700"
+                  whileHover={{ y: -5, boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.3)' }}
                   transition={{ type: "spring", stiffness: 500 }}
                 >
                   {tech}
