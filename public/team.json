@@ -1,62 +1,74 @@
 [
   {
     "id": 1,
-    "name": "Alex Johnson",
-    "role": "Project Lead",
-    "photo": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "name": "Aniket Rajak",
+    "role": "Frontend Developer",
+    "photo": "https://media.licdn.com/dms/image/v2/D5603AQFmhAHh5xVs9g/profile-displayphoto-shrink_800_800/B56ZXEBmEWGoAc-/0/1742750508313?e=1753315200&v=beta&t=XtCj07JjaFTQUhTioQkL5nzUowqNNI0ddyB7ikCh0D4",
     "bio": "Full-stack developer with 5+ years of experience in React and Node.js. Leading the architecture and development strategy.",
     "social": {
-      "linkedin": "https://linkedin.com/in/alexjohnson",
+      "linkedin": "https://www.linkedin.com/in/aniket-rajak-6172111b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "github": "https://github.com/alexjohnson",
       "twitter": "https://twitter.com/alexjohnson"
     }
   },
   {
     "id": 2,
-    "name": "Samantha Chen",
-    "role": "UI/UX Designer",
-    "photo": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "name": "Mohit Mehta",
+    "role": "Frontend Developer",
+    "photo": "https://media.licdn.com/dms/image/v2/D5603AQHC_0iMZMmbcw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711189039921?e=1753315200&v=beta&t=x6TgV364oh9u0A4bWCkQc-Lp4FM-dQp5PqNcMHqsR-Q",
     "bio": "Creative designer focusing on user experience and interface design. Passionate about creating intuitive and beautiful digital experiences.",
     "social": {
-      "linkedin": "https://linkedin.com/in/samanthachen",
-      "github": "https://github.com/samchen",
-      "twitter": "https://twitter.com/samchen_design"
+      "linkedin": "https://www.linkedin.com/in/mohit-mehta-019045240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "github": "https://github.com/mohitmehta60",
+      "twitter": "https://x.com/mohit_mehta1665?s=09"
     }
   },
   {
     "id": 3,
-    "name": "Marcus Williams",
-    "role": "Backend Developer",
-    "photo": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "name": "Nakul Saini",
+    "role": "Frontend Developer",
+    "photo": "https://media.licdn.com/dms/image/v2/D5603AQGx7plm-6e3hA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728472126492?e=1753315200&v=beta&t=3nohypIgFY_hiZA3mhERU0x5meaD3UKGw3OAEcwB7yk",
     "bio": "Specializing in API design, database architecture, and server optimization. Committed to building scalable and efficient systems.",
     "social": {
-      "linkedin": "https://linkedin.com/in/marcuswilliams",
-      "github": "https://github.com/mwilliams",
-      "twitter": "https://twitter.com/marcusw_dev"
+      "linkedin": "https://www.linkedin.com/in/nakul-saini-4ba67328a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "github": "https://github.com/Nakulsaini07-coder",
+      "twitter": "https://x.com/Nakulsaini07?t=DlrG2gyPWg4H_480wg9REw&s=08"
     }
   },
   {
     "id": 4,
-    "name": "Priya Patel",
-    "role": "Frontend Developer",
-    "photo": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "bio": "React specialist with a focus on component architecture and state management. Creating responsive and accessible user interfaces.",
+    "name": "Sankalp Goyal",
+    "role": "Backend Developer",
+    "photo": "https://media.licdn.com/dms/image/v2/D4E03AQHqCW6F5a_G5A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696788936082?e=1753315200&v=beta&t=bHBj3iq8Are8odX_VMMWvf0c01aiNzjZlEOohJNaZMo",
+    "bio": "Specializing in API design, database architecture, and server optimization. Committed to building scalable and efficient systems.",
     "social": {
-      "linkedin": "https://linkedin.com/in/priyapatel",
-      "github": "https://github.com/priyap",
-      "twitter": "https://twitter.com/priya_codes"
+      "linkedin": "https://www.linkedin.com/in/sankalp-goyal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "github": "https://github.com/snklp04",
+      "twitter": "https://x.com/Sankalp2327"
     }
   },
   {
     "id": 5,
-    "name": "David Kim",
-    "role": "DevOps Engineer",
-    "photo": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "name": "Shubham Shoora",
+    "role": "Backend Developer",
+    "photo": "https://media.licdn.com/dms/image/v2/D5603AQEZPGVNqP4V_Q/profile-displayphoto-shrink_800_800/B56Zbfsqg3GoAc-/0/1747509750633?e=1753315200&v=beta&t=owDtHMj0kSeICPVsRrGCIHlR6vg3FRPcKdAEYVuzXJ0",
+    "bio": "React specialist with a focus on component architecture and state management. Creating responsive and accessible user interfaces.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/shubham-shoora-6008192a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "github": "https://github.com/Shubham-Singh-Shoora",
+      "twitter": "https://x.com/ShooraShubham?t=CKEDhjEeqDH9SJCxV0Ma4g&s=08"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Suyash Bajpai",
+    "role": "Backend Developer",
+    "photo": "https://media.licdn.com/dms/image/v2/D5603AQHXH2yowpel2A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696654549048?e=1753315200&v=beta&t=EpAUqJoMoWVj4fsT1_kMEtBkurWSuZvsAVDwBR99_oE",
     "bio": "Automation enthusiast experienced in CI/CD pipelines, cloud infrastructure, and containerization. Ensuring smooth deployments and reliable systems.",
     "social": {
-      "linkedin": "https://linkedin.com/in/davidkim",
-      "github": "https://github.com/dkim",
-      "twitter": "https://twitter.com/davidk_devops"
+      "linkedin": "https://www.linkedin.com/in/suyash-bajpai-05ba7428a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "github": "https://github.com/suyashbajpai-hi",
+      "twitter": "https://x.com/suyashbajpai_hi?t=jXuH8qBPuL_NWkpN_1E-HQ&s=08"
     }
   }
 ]

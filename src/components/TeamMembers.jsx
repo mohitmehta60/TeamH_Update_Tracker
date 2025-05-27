@@ -6,7 +6,7 @@ const TeamMemberCard = ({ member, index }) => {
   
   return (
     <motion.div 
-      className="bg-white rounded-lg shadow-card overflow-hidden transform transition-all duration-300 hover:-translate-y-2"
+      className="dark-card rounded-lg shadow-card overflow-hidden transform transition-all duration-300 hover:-translate-y-2 border border-gray-700"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -21,9 +21,9 @@ const TeamMemberCard = ({ member, index }) => {
       </div>
       
       <div className="p-6">
-        <h3 className="text-xl font-semibold mb-1 text-gray-900">{name}</h3>
-        <p className="text-primary-600 font-medium mb-4">{role}</p>
-        <p className="text-gray-600 mb-5">{bio}</p>
+        <h3 className="text-xl font-semibold mb-1 text-gray-100">{name}</h3>
+        <p className="text-blue-400 font-medium mb-4">{role}</p>
+        <p className="text-gray-300 mb-5">{bio}</p>
         
         <div className="flex justify-start space-x-4">
           {social.linkedin && (
@@ -31,7 +31,7 @@ const TeamMemberCard = ({ member, index }) => {
               href={social.linkedin} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-gray-500 hover:text-primary-600 transition-colors"
+              className="text-gray-400 hover:text-blue-400 transition-colors"
             >
               <FaLinkedin className="w-5 h-5" />
             </a>
@@ -42,7 +42,7 @@ const TeamMemberCard = ({ member, index }) => {
               href={social.github} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-gray-500 hover:text-primary-600 transition-colors"
+              className="text-gray-400 hover:text-blue-400 transition-colors"
             >
               <FaGithub className="w-5 h-5" />
             </a>
@@ -53,7 +53,7 @@ const TeamMemberCard = ({ member, index }) => {
               href={social.twitter} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-gray-500 hover:text-primary-600 transition-colors"
+              className="text-gray-400 hover:text-blue-400 transition-colors"
             >
               <FaTwitter className="w-5 h-5" />
             </a>
