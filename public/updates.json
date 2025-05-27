@@ -2,9 +2,11 @@
   {
     "id": 1,
     "memberName": "Aniket Rajak",
-    "date": "2025-05-23",
-    "content": "Set up monitoring and logging infrastructure. Implemented error tracking to quickly identify and fix production issues.",
-    "media": null
+    "date": "2025-05-28",
+    "content": "Integrated a 3D model as the background for the landing page—optimized for tablets and larger devices.",
+    "media": {
+      
+    }
   },
   {
     "id": 2,
