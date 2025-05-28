@@ -3,9 +3,9 @@ import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa'
 
 const Footer = () => {
   const socialLinks = [
-    { icon: <FaGithub />, href: 'https://github.com/team-h-project', label: 'GitHub' },
-    { icon: <FaLinkedin />, href: 'https://linkedin.com/company/team-h', label: 'LinkedIn' },
-    { icon: <FaTwitter />, href: 'https://twitter.com/teamhproject', label: 'Twitter' }
+    { icon: <FaGithub />, href: 'https://github.com/Nakulsaini07-coder/TeamH_Update_Tracker', label: 'GitHub' },
+    { icon: <FaLinkedin />, href: 'https://www.linkedin.com/in/nakul-saini-4ba67328a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', label: 'LinkedIn' },
+    { icon: <FaTwitter />, href: 'https://x.com/Nakulsaini07?t=DlrG2gyPWg4H_480wg9REw&s=08', label: 'Twitter' }
   ]
 
   const itemVariants = {
@@ -36,7 +36,7 @@ const Footer = () => {
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Home</a></li>
               <li><a href="#team" className="text-gray-400 hover:text-white transition-colors">Team</a></li>
               <li><a href="#updates" className="text-gray-400 hover:text-white transition-colors">Updates</a></li>
-              <li><a href="https://github.com/team-h-project" className="text-gray-400 hover:text-white transition-colors">GitHub</a></li>
+              <li><a href="https://github.com/Nakulsaini07-coder/TeamH_Update_Tracker" className="text-gray-400 hover:text-white transition-colors">GitHub</a></li>
             </ul>
           </motion.div>
           
@@ -44,8 +44,8 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Contact</h3>
             <div className="flex items-center space-x-2 mb-2">
               <FaEnvelope className="text-gray-400" />
-              <a href="mailto:contact@teamh.dev" className="text-gray-400 hover:text-white transition-colors">
-                contact@teamh.dev
+              <a href="mailto:nakullsaini07@gmail.com" className="text-gray-400 hover:text-white transition-colors">
+                nakullsaini07@gmail.com
               </a>
             </div>
           </motion.div>

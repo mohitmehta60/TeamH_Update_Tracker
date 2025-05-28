@@ -22,7 +22,7 @@ const Header = () => {
     { name: 'Home', href: '#' },
     { name: 'Team', href: '#team' },
     { name: 'Updates', href: '#updates' },
-    { name: 'GitHub', href: 'https://github.com/team-h-project' }
+    { name: 'GitHub', href: 'https://github.com/Nakulsaini07-coder/TeamH_Update_Tracker' }
   ]
 
   return (
