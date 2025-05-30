@@ -4,34 +4,54 @@
     "memberName": "Aniket Rajak",
     "date": "2025-05-28",
     "content": "Integrated a 3D model as the background for the landing page—optimized for tablets and larger devices.",
-    "media": null
+    "media": {
+      "type": "image",
+      "url": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "caption": "New landing page design"
+    }
   },
   {
     "id": 2,
     "memberName": "Mohit Mehta",
     "date": "2025-05-23",
     "content": "Set up monitoring and logging infrastructure. Implemented error tracking to quickly identify and fix production issues.",
-    "media": null
+    "media": {
+      "type": "video",
+      "url": "https://player.vimeo.com/video/824804225",
+      "caption": "System monitoring dashboard"
+    }
   },
   {
     "id": 3,
     "memberName": "Sankalp Goyal",
     "date": "2025-05-23",
     "content": "Set up monitoring and logging infrastructure. Implemented error tracking to quickly identify and fix production issues.",
-    "media": null
+    "media": {
+      "type": "image",
+      "url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "caption": "Error tracking system"
+    }
   },
   {
     "id": 4,
     "memberName": "Suyash Bajpai",
     "date": "2025-05-23",
     "content": "Set up monitoring and logging infrastructure. Implemented error tracking to quickly identify and fix production issues.",
-    "media": null
+    "media": {
+      "type": "video",
+      "url": "https://player.vimeo.com/video/824804225",
+      "caption": "Performance metrics overview"
+    }
   },
   {
     "id": 5,
     "memberName": "Shubham Shoora",
     "date": "2025-05-23",
     "content": "Set up monitoring and logging infrastructure. Implemented error tracking to quickly identify and fix production issues.",
-    "media": null
+    "media": {
+      "type": "image",
+      "url": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "caption": "System architecture diagram"
+    }
   }
 ]
