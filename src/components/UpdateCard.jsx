@@ -4,6 +4,47 @@ import { FaUser } from 'react-icons/fa'
 const UpdateCard = ({ update, member, index }) => {
   const { content, date, media } = update
 
+  const renderMedia = () => {
+    if (!media) return null
+
+    if (media.type === 'image') {
+      return (
+        <div className="mt-4 rounded-lg overflow-hidden max-w-lg mx-auto">
+          <img 
+            src={media.url} 
+            alt={media.caption || "Update media"}
+            className="w-full h-auto rounded-lg transform transition-transform duration-500 hover:scale-105"
+            loading="lazy"
+          />
+          {media.caption && (
+            <p className="text-sm text-gray-400 mt-2 text-center">{media.caption}</p>
+          )}
+        </div>
+      )
+    }
+
+    if (media.type === 'video') {
+      return (
+        <div className="mt-4 rounded-lg overflow-hidden max-w-lg mx-auto">
+          <div className="relative pb-[56.25%] h-0">
+            <iframe
+              src={media.url}
+              className="absolute top-0 left-0 w-full h-full rounded-lg"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              loading="lazy"
+            />
+          </div>
+          {media.caption && (
+            <p className="text-sm text-gray-400 mt-2 text-center">{media.caption}</p>
+          )}
+        </div>
+      )
+    }
+
+    return null
+  }
+
   return (
     <motion.div
       className="dark-card rounded-lg shadow-soft p-6 border border-gray-700 overflow-hidden"
@@ -20,6 +61,7 @@ const UpdateCard = ({ update, member, index }) => {
               src={member.photo} 
               alt={member.name}
               className="w-12 h-12 rounded-full object-cover"
+              loading="lazy"
             />
           ) : (
             <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center">
@@ -40,15 +82,7 @@ const UpdateCard = ({ update, member, index }) => {
           
           <p className="text-gray-300 mb-4">{content}</p>
           
-          {media && media.type === 'image' && (
-            <div className="mt-4 rounded-lg overflow-hidden">
-              <img 
-                src={media.url} 
-                alt="Update media"
-                className="w-full h-auto rounded-lg transform transition-transform duration-500 hover:scale-105"
-              />
-            </div>
-          )}
+          {renderMedia()}
         </div>
       </div>
     </motion.div>
