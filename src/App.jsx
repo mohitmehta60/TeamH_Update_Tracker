@@ -55,16 +55,27 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col bg-gray-900">
       <Header />
-      <main className="flex-grow">
+      <main className="mt-16 md:mt-20">
         <ProjectOverview />
+        <section
+          id="weekly-progress"
+          className="py-8 bg-gradient-to-br from-blue-50 to-slate-50"
+        >
+          <div className="container mx-auto px-4">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+            ></motion.div>
+            <WeeklyProgressTracker />
+          </div>
+        </section>
         <section
           id="team"
           className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"
         >
           <div className="container mx-auto px-4">
-            <div className="pb-[55px]">
-              <WeeklyProgressTracker />
-            </div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
