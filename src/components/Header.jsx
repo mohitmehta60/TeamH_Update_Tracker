@@ -1,9 +1,13 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   // Generalized scroll handler
   const handleNavClick = (e, sectionId) => {
     e.preventDefault();
+    setMenuOpen(false); // Close mobile menu on click
     if (sectionId === "home") {
       window.scrollTo({ top: 0, behavior: "smooth" });
     } else {
@@ -32,7 +36,7 @@ const Header = () => {
 
   return (
     <motion.header
-      className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md transition-all duration-300"
+      className="fixed top-0 left-0 right-0 z-50 bg-gray-900 shadow-md transition-all duration-300"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
@@ -52,13 +56,14 @@ const Header = () => {
             </a>
           </motion.div>
 
+          {/* Desktop Nav */}
           <nav className="hidden md:flex space-x-8">
             {navLinks.map((link, index) => (
               <motion.a
                 key={link.name}
                 href={link.href}
                 onClick={link.onClick}
-                className="text-sm font-medium transition-colors text-gray-700 hover:text-primary-600"
+                className="text-sm font-medium transition-colors text-gray-200 hover:text-primary-400"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2 + index * 0.1 }}
@@ -72,8 +77,13 @@ const Header = () => {
             ))}
           </nav>
 
+          {/* Mobile Hamburger */}
           <div className="md:hidden">
-            <button className="p-2 focus:outline-none text-gray-700">
+            <button
+              className="p-2 focus:outline-none text-gray-200"
+              onClick={() => setMenuOpen((prev) => !prev)}
+              aria-label="Toggle menu"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -85,12 +95,35 @@ const Header = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={2}
-                  d="M4 6h16M4 12h16M4 18h16"
+                  d={menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
                 />
               </svg>
             </button>
           </div>
         </div>
+
+        {/* Mobile Nav */}
+        {menuOpen && (
+          <motion.nav
+            className="md:hidden flex flex-col bg-gray-900 rounded-b-lg shadow-lg px-4 py-4 space-y-4"
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.2 }}
+          >
+            {navLinks.map((link) => (
+              <a
+                key={link.name}
+                href={link.href}
+                onClick={link.onClick}
+                className="text-base font-medium text-gray-200 hover:text-primary-400 transition-colors"
+                target={link.name === "GitHub" ? "_blank" : undefined}
+                rel={link.name === "GitHub" ? "noopener noreferrer" : undefined}
+              >
+                {link.name}
+              </a>
+            ))}
+          </motion.nav>
+        )}
       </div>
     </motion.header>
   );

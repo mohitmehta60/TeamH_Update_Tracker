@@ -48,6 +48,12 @@ const Footer = () => {
                 nakullsaini07@gmail.com
               </a>
             </div>
+            <div className="flex items-center space-x-2 mb-2">
+              <FaEnvelope className="text-gray-400" />
+              <a href="mailto:g.mehta1971@gmail.com" className="text-gray-400 hover:text-white transition-colors">
+                g.mehta1971@gmail.com
+              </a>
+            </div>
           </motion.div>
           
           <motion.div variants={itemVariants}>

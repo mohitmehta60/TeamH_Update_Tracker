@@ -59,7 +59,7 @@ function App() {
         <ProjectOverview />
         <section
           id="weekly-progress"
-          className="py-8 bg-gradient-to-br from-blue-50 to-slate-50"
+          className="pt-10 pb-2 bg-gradient-to-br from-gray-800 via-gray-800 to-gray-800"
         >
           <div className="container mx-auto px-4">
             <motion.div
@@ -71,9 +71,10 @@ function App() {
             <WeeklyProgressTracker />
           </div>
         </section>
+
         <section
           id="team"
-          className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"
+          className="py-10 bg-gradient-to-br from-gray-800 via-gray-800 to-gray-800"
         >
           <div className="container mx-auto px-4">
             <motion.div
@@ -82,7 +83,10 @@ function App() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-4xl font-bold mb-12 text-center gradient-text">
+              <h2
+                className="text-4xl font-bold mb-2 text-center gradient-text"
+                style={{ fontSize: "4rem", lineHeight: "8rem" }}
+              >
                 Our Team
               </h2>
             </motion.div>
