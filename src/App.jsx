@@ -6,6 +6,7 @@ import TeamMembers from "./components/TeamMembers";
 import Updates from "./components/Updates";
 import Footer from "./components/Footer";
 import WeeklyProgressTracker from "./components/WeeklyProgressTracker";
+import GitHubCommitTracker from "./components/GitHubCommitTracker"; // Add this import
 import "./App.css";
 
 function App() {
@@ -77,6 +78,7 @@ function App() {
           className="py-10 bg-gradient-to-br from-gray-800 via-gray-800 to-gray-800"
         >
           <div className="container mx-auto px-4">
+            <GitHubCommitTracker /> {/* Now above the heading */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
