@@ -149,7 +149,7 @@ const GitHubCommitTracker = ({
         {/* Centered Header */}
         <div className="bg-gradient-to-r from-gray-50 to-white px-6 py-8 border-b border-gray-100">
           <div className="flex flex-col items-center space-y-3">
-            <GitCommit className="w-8 h-8 text-gray-700" />
+            <GitCommit className="w-50 h-50 text-gray-700" />
             <h1 className="text-3xl font-bold text-gray-800 text-center">GitHub Commit Tracker</h1>
           </div>
         </div>
