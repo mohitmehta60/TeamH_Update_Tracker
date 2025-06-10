@@ -7,7 +7,7 @@
     "media": {
       "type": "video",
       "url": "/media/vid.mp4",
-      "caption": "New landing page design"
+      "caption": "Update Tracker app"
     }
   },
   {
@@ -23,119 +23,157 @@
     "date": "2025-05-28",
     "content": "Integrated a 3D model as the background for the landing page—optimized for tablets and larger devices.",
     "media": {
-      "type": "image",
-      "url": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "caption": "New landing page design"
-    }
-  },
-  {
-    "id": 3,
-    "memberName": "Aniket Rajak",
-    "date": "2025-05-28",
-    "content": "Integrated a 3D model as the background for the landing page—optimized for tablets and larger devices.",
-    "media": {
-      "type": "image",
-      "url": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "caption": "New landing page design"
-    }
-  },
-  {
-    "id": 3,
-    "memberName": "Aniket Rajak",
-    "date": "2025-05-28",
-    "content": "Integrated a 3D model as the background for the landing page—optimized for tablets and larger devices.",
-    "media": {
-      "type": "image",
-      "url": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "caption": "New landing page design"
-    }
-  },
-  {
-    "id": 3,
-    "memberName": "Aniket Rajak",
-    "date": "2025-05-28",
-    "content": "Integrated a 3D model as the background for the landing page—optimized for tablets and larger devices.",
-    "media": {
-      "type": "image",
-      "url": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "caption": "New landing page design"
-    }
-  },
-  {
-    "id": 3,
-    "memberName": "Aniket Rajak",
-    "date": "2025-05-28",
-    "content": "Integrated a 3D model as the background for the landing page—optimized for tablets and larger devices.",
-    "media": {
-      "type": "image",
-      "url": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "caption": "New landing page design"
-    }
-  },
-  {
-    "id": 3,
-    "memberName": "Aniket Rajak",
-    "date": "2025-05-28",
-    "content": "Integrated a 3D model as the background for the landing page—optimized for tablets and larger devices.",
-    "media": {
-      "type": "image",
-      "url": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "caption": "New landing page design"
-    }
-  },
-  {
-    "id": 3,
-    "memberName": "Aniket Rajak",
-    "date": "2025-05-28",
-    "content": "Integrated a 3D model as the background for the landing page—optimized for tablets and larger devices.",
-    "media": {
-      "type": "image",
-      "url": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "caption": "New landing page design"
+      "type": "video",
+      "url": "/media/vid1.mp4",
+      "caption": "Main Landing Page"
     }
   },
   {
     "id": 4,
+    "memberName": "Aniket Rajak",
+    "date": "2025-05-31",
+    "content": "Project Demo Session",
+    "media": null
+  },
+  {
+    "id": 5,
+    "memberName": "Shubham Shoora",
+    "date": "2025-05-31",
+    "content": "Project Demo Session",
+    "media": null
+  },
+  {
+    "id": 6,
+    "memberName": "Sankalp Goyal",
+    "date": "2025-05-31",
+    "content": "Project Demo Session",
+    "media": null
+  },
+  {
+    "id": 7,
+    "memberName": "Suyash Bajpai",
+    "date": "2025-05-31",
+    "content": "Project Demo Session",
+    "media": null
+  },
+  {
+    "id": 8,
     "memberName": "Mohit Mehta",
-    "date": "2025-05-23",
-    "content": "Set up monitoring and logging infrastructure. Implemented error tracking to quickly identify and fix production issues.",
+    "date": "2025-05-31",
+    "content": "Project Demo Session",
+    "media": null
+  },
+  {
+    "id": 9,
+    "memberName": "Nakul saini",
+    "date": "2025-05-31",
+    "content": "Project Demo Session",
+    "media": null
+  },
+  {
+    "id": 10,
+    "memberName": "Shubham Shoora",
+    "date": "2025-06-01",
+    "content": "Implemented Internet Identity (II) authentiction into the frontend",
     "media": {
       "type": "video",
-      "url": "https://player.vimeo.com/video/824804225",
+      "url": "/media/vid2.mp4",
       "caption": "System monitoring dashboard"
     }
   },
   {
-    "id": 5,
+    "id": 11,
+    "memberName": "Mohit Mehta",
+    "date": "2025-06-04",
+    "content": "Added weekly progress tracker component in the Update Tracker app",
+    "media": null
+  },
+  {
+    "id": 12,
+    "memberName": "Mohit Mehta",
+    "date": "2025-06-07",
+    "content": "Milestone 1 completed.",
+    "media": null
+  },
+  {
+    "id": 13,
     "memberName": "Sankalp Goyal",
-    "date": "2025-05-23",
-    "content": "Set up monitoring and logging infrastructure. Implemented error tracking to quickly identify and fix production issues.",
-    "media": {
-      "type": "image",
-      "url": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "caption": "Error tracking system"
-    }
+    "date": "2025-06-07",
+    "content": "Milestone 1 completed.",
+    "media": null
   },
   {
-    "id": 6,
-    "memberName": "Suyash Bajpai",
-    "date": "2025-05-23",
-    "content": "Set up monitoring and logging infrastructure. Implemented error tracking to quickly identify and fix production issues.",
-    "media": {
-      "type": "video",
-      "url": "https://player.vimeo.com/video/824804225",
-      "caption": "Performance metrics overview"
-    }
+    "id": 14,
+    "memberName": "Aniket Rajak",
+    "date": "2025-06-07",
+    "content": "Milestone 1 completed.",
+    "media": null
   },
   {
-    "id": 7,
+    "id": 15,
+    "memberName": "Nakul saini",
+    "date": "2025-06-07",
+    "content": "Milestone 1 completed.",
+    "media": null
+  },
+  {
+    "id": 16,
     "memberName": "Shubham Shoora",
-    "date": "2025-05-23",
-    "content": "Set up monitoring and logging infrastructure. Implemented error tracking to quickly identify and fix production issues.",
+    "date": "2025-06-07",
+    "content": "Milestone 1 completed.",
+    "media": null
+  },
+  {
+    "id": 17,
+    "memberName": "Suyash Bajpai",
+    "date": "2025-06-07",
+    "content": "Milestone 1 completed.",
+    "media": null
+  },
+  {
+    "id": 18,
+    "memberName": "Aniket Rajak",
+    "date": "2025-06-10",
+    "content": "CLI files updated and Project Demo Session",
+    "media": null
+  },
+  {
+    "id": 19,
+    "memberName": "Shubham Shoora",
+    "date": "2025-06-10",
+    "content": "Project Demo Session",
+    "media": null
+  },
+  {
+    "id": 20,
+    "memberName": "Sankalp Goyal",
+    "date": "2025-06-10",
+    "content": "Project Demo Session",
+    "media": null
+  },
+  {
+    "id": 21,
+    "memberName": "Mohit Mehta",
+    "date": "2025-06-10",
+    "content": "Added the git commit tracker in the Update Tracker app and Project Demo Session",
     "media": {
       "type": "image",
-      "url": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "caption": "System architecture diagram"
+      "url": "/media/img.png",
+      "caption": "Git Commit Tracker Component"
     }
+  },
+  {
+    "id": 22,
+    "memberName": "Suyash Bajpai",
+    "date": "2025-06-10",
+    "content": "CLI files updated and Project Demo Session",
+    "media": null
+  },
+  {
+    "id": 22,
+    "memberName": "Nakul saini",
+    "date": "2025-06-10",
+    "content": "Updated today's work in the Update Tracker app and Project Demo Session",
+    "media": null
   }
 ]
