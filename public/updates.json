@@ -1,6 +1,24 @@
 [
   {
     "id": 1,
+    "memberName": "Nakul saini",
+    "date": "2025-05-25",
+    "content": "Introduces a Daily Update Tracker app for Team H",
+    "media": {
+      "type": "video",
+      "url": "/media/vid.mp4",
+      "caption": "New landing page design"
+    }
+  },
+  {
+    "id": 2,
+    "memberName": "Nakul saini",
+    "date": "2025-05-27",
+    "content": "Deployed Update Tracker app on Vercel: https://team-h-update-tracker.vercel.app/",
+    "media": null
+  },
+  {
+    "id": 3,
     "memberName": "Aniket Rajak",
     "date": "2025-05-28",
     "content": "Integrated a 3D model as the background for the landing page—optimized for tablets and larger devices.",
@@ -11,7 +29,73 @@
     }
   },
   {
-    "id": 2,
+    "id": 3,
+    "memberName": "Aniket Rajak",
+    "date": "2025-05-28",
+    "content": "Integrated a 3D model as the background for the landing page—optimized for tablets and larger devices.",
+    "media": {
+      "type": "image",
+      "url": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "caption": "New landing page design"
+    }
+  },
+  {
+    "id": 3,
+    "memberName": "Aniket Rajak",
+    "date": "2025-05-28",
+    "content": "Integrated a 3D model as the background for the landing page—optimized for tablets and larger devices.",
+    "media": {
+      "type": "image",
+      "url": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "caption": "New landing page design"
+    }
+  },
+  {
+    "id": 3,
+    "memberName": "Aniket Rajak",
+    "date": "2025-05-28",
+    "content": "Integrated a 3D model as the background for the landing page—optimized for tablets and larger devices.",
+    "media": {
+      "type": "image",
+      "url": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "caption": "New landing page design"
+    }
+  },
+  {
+    "id": 3,
+    "memberName": "Aniket Rajak",
+    "date": "2025-05-28",
+    "content": "Integrated a 3D model as the background for the landing page—optimized for tablets and larger devices.",
+    "media": {
+      "type": "image",
+      "url": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "caption": "New landing page design"
+    }
+  },
+  {
+    "id": 3,
+    "memberName": "Aniket Rajak",
+    "date": "2025-05-28",
+    "content": "Integrated a 3D model as the background for the landing page—optimized for tablets and larger devices.",
+    "media": {
+      "type": "image",
+      "url": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "caption": "New landing page design"
+    }
+  },
+  {
+    "id": 3,
+    "memberName": "Aniket Rajak",
+    "date": "2025-05-28",
+    "content": "Integrated a 3D model as the background for the landing page—optimized for tablets and larger devices.",
+    "media": {
+      "type": "image",
+      "url": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "caption": "New landing page design"
+    }
+  },
+  {
+    "id": 4,
     "memberName": "Mohit Mehta",
     "date": "2025-05-23",
     "content": "Set up monitoring and logging infrastructure. Implemented error tracking to quickly identify and fix production issues.",
@@ -22,7 +106,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 5,
     "memberName": "Sankalp Goyal",
     "date": "2025-05-23",
     "content": "Set up monitoring and logging infrastructure. Implemented error tracking to quickly identify and fix production issues.",
@@ -33,7 +117,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 6,
     "memberName": "Suyash Bajpai",
     "date": "2025-05-23",
     "content": "Set up monitoring and logging infrastructure. Implemented error tracking to quickly identify and fix production issues.",
@@ -44,7 +128,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 7,
     "memberName": "Shubham Shoora",
     "date": "2025-05-23",
     "content": "Set up monitoring and logging infrastructure. Implemented error tracking to quickly identify and fix production issues.",
