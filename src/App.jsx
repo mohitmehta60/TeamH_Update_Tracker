@@ -73,26 +73,23 @@ function App() {
           </div>
         </section>
 
+        {/* New section for GitHubCommitTracker */}
         <section
-          id="team"
-          className="py-10 bg-gradient-to-br from-gray-800 via-gray-800 to-gray-800"
+          id="github-commits"
+          className="py-10 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"
         >
           <div className="container mx-auto px-4">
-            <GitHubCommitTracker /> {/* Now above the heading */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <h2
-                className="text-4xl font-bold mb-2 text-center gradient-text"
-                style={{ fontSize: "4rem", lineHeight: "8rem" }}
-              >
-                Our Team
+              <h2 className="text-3xl font-bold mb-8 text-center gradient-text">
+                GitHub Commit Tracker
               </h2>
             </motion.div>
-            <TeamMembers members={teamMembers} />
+            <GitHubCommitTracker />
           </div>
         </section>
 
@@ -112,6 +109,29 @@ function App() {
               </h2>
             </motion.div>
             <Updates updates={updates} teamMembers={teamMembers} />
+          </div>
+        </section>
+
+        <section
+          id="team"
+          className="py-10 bg-gradient-to-br from-gray-800 via-gray-800 to-gray-800"
+        >
+          <div className="container mx-auto px-4">
+            {/* <GitHubCommitTracker /> Removed from here */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+            >
+              <h2
+                className="text-4xl font-bold mb-2 text-center gradient-text"
+                style={{ fontSize: "4rem", lineHeight: "8rem" }}
+              >
+                Our Team
+              </h2>
+            </motion.div>
+            <TeamMembers members={teamMembers} />
           </div>
         </section>
       </main>
