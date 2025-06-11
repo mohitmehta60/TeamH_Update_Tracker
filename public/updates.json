@@ -175,5 +175,55 @@
     "date": "2025-06-10",
     "content": "Updated today's work in the Update Tracker app and Project Demo Session",
     "media": null
+  },
+  {
+    "id": 23,
+    "memberName": "Aniket Rajak",
+    "date": "2025-06-11",
+    "content": "Made dGit User Dashboard.",
+    "media": {
+      "type": "image",
+      "url": "/media/dashboard.png",
+      "caption": "User Dashboard"
+    }
+  },
+  {
+    "id": 24,
+    "memberName": "Shubham Shoora",
+    "date": "2025-06-11",
+    "content": "Working on dGit editor and rebooting the system",
+    "media": null
+  },
+  {
+    "id": 25,
+    "memberName": "Sankalp Goyal",
+    "date": "2025-06-11",
+    "content": "Working on dGit editor and rebooting the system",
+    "media": null
+  },
+  {
+    "id": 26,
+    "memberName": "Mohit Mehta",
+    "date": "2025-06-11",
+    "content": "Make the Update Tracker app responsive for all devices",
+    "media": null
+  },
+  {
+    "id": 27,
+    "memberName": "Suyash Bajpai",
+    "date": "2025-06-11",
+    "content": "Use Case and Activity Diagram for Milestone 1",
+    "media": {
+      "type": "image",
+      "url": "/media/img.png",
+      "caption": "Use Case Diagram"
+    }
+  },
+  {
+    "id": 28,
+    "memberName": "Nakul saini",
+    "date": "2025-06-11",
+    "content": "Updated today's work in the Update Tracker app - 11-06-2025",
+    "media": null
   }
 ]
