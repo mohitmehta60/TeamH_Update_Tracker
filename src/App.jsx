@@ -6,7 +6,8 @@ import TeamMembers from "./components/TeamMembers";
 import Updates from "./components/Updates";
 import Footer from "./components/Footer";
 import WeeklyProgressTracker from "./components/WeeklyProgressTracker";
-import GitHubCommitTracker from "./components/GitHubCommitTracker"; // Add this import
+import GitHubCommitTracker from "./components/GitHubCommitTracker";
+import VideoUpdateTracker from "./components/VideoUpdateTracker"; // Add this import
 import "./App.css";
 
 function App() {
@@ -58,6 +59,20 @@ function App() {
       <Header />
       <main className="mt-16 md:mt-20">
         <ProjectOverview />
+
+        <section id="video-update" className="py-10 bg-gradient-to-br from-gray-800 via-gray-800 to-gray-800">
+          <div className="container mx-auto px-4">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+            >
+              <VideoUpdateTracker />
+            </motion.div>
+          </div>
+        </section>
+
         <section
           id="weekly-progress"
           className="pt-10 pb-2 bg-gradient-to-br from-gray-800 via-gray-800 to-gray-800"

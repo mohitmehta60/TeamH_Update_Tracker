@@ -8,7 +8,8 @@ import {
   TrendingUp,
   Bell,
   GitCommit,
-} from "lucide-react";
+  Video,
+} from "lucide-react"; // Added Video icon
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -30,6 +31,14 @@ const Header = () => {
 
     if (sectionId === "home") {
       window.scrollTo({ top: 0, behavior: "smooth" });
+    } else if (sectionId === "video-update") {
+      const yOffset = -80; // Adjust for header height if needed
+      const section = document.getElementById("video-update");
+      if (section) {
+        const y =
+          section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }
     } else {
       const section = document.getElementById(sectionId);
       if (section) {
@@ -44,6 +53,12 @@ const Header = () => {
       href: "#",
       onClick: (e) => handleNavClick(e, "home"),
       icon: Home,
+    },
+    {
+      name: "Video Update",
+      href: "#video-update",
+      onClick: (e) => handleNavClick(e, "video-update"),
+      icon: Video,
     },
     {
       name: "Weekly Progress",

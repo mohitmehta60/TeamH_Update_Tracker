@@ -37,19 +37,33 @@ const Footer = () => {
         >
           {/* Logo & About */}
           <motion.div variants={itemVariants}>
-            <div className="flex items-center mb-4">
-              <div className="bg-gradient-to-tr from-indigo-500 to-purple-600 rounded-full w-12 h-12 flex items-center justify-center mr-3 shadow-lg">
-                {/* Replace with your logo if available */}
-                <span className="text-2xl font-bold text-white">H</span>
+            <div className="footer-section">
+              <div className="footer-logo">
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    fontWeight: "bold",
+                  }}
+                >
+                  <img
+                    src="/media/logo.png"
+                    alt="Team H Logo"
+                    style={{
+                      width: "48px",
+                      height: "48px",
+                      borderRadius: "50%",
+                      marginRight: "12px",
+                    }}
+                  />
+                  <span style={{ fontSize: "2rem" }}>Team H</span>
+                </div>
               </div>
-              <span className="text-2xl font-extrabold tracking-wide">
-                Team H
-              </span>
+              <p className="text-gray-400 mb-4 leading-relaxed">
+                A collaborative project tracking and management application built
+                with modern web technologies.
+              </p>
             </div>
-            <p className="text-gray-400 mb-4 leading-relaxed">
-              A collaborative project tracking and management application built
-              with modern web technologies.
-            </p>
           </motion.div>
 
           {/* Quick Links */}
