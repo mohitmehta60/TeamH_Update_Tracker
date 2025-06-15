@@ -50,31 +50,6 @@ const ProjectOverview = () => {
             (d-Git)
           </motion.h1>
 
-          {/* <motion.p 
-            className="text-base sm:text-lg md:text-xl text-gray-700 mb-6 md:mb-8"
-            variants={itemVariants}
-          >
-            An innovative web application for collaborative productivity and team management.
-            We're building a platform that helps teams organize their work, track progress,
-            and achieve their goals together.
-          </motion.p> */}
-
-          {/* <motion.div variants={itemVariants}>
-            <h3 className="text-base sm:text-lg font-semibold mb-2 md:mb-3 text-gray-800">Tech Stack:</h3>
-            <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mb-6 md:mb-8">
-              {techStack.map((tech, index) => (
-                <motion.span
-                  key={index}
-                  className="px-3 sm:px-4 py-1 sm:py-2 dark-card rounded-full text-xs sm:text-sm font-medium text-blue-400 shadow-soft border border-gray-700"
-                  whileHover={{ y: -5, boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.3)' }}
-                  transition={{ type: "spring", stiffness: 500 }}
-                >
-                  {tech}
-                </motion.span>
-              ))}
-            </div>
-          </motion.div> */}
-
           <motion.div variants={itemVariants}>
             <a
               href="#updates"

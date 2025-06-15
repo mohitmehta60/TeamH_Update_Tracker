@@ -2,9 +2,9 @@
   {
     "id": 1,
     "name": "Aniket Rajak",
-    "role": "Frontend Developer",
+    "role": "Full Stack Developer",
     "photo": "https://media.licdn.com/dms/image/v2/D5603AQFmhAHh5xVs9g/profile-displayphoto-shrink_800_800/B56ZXEBmEWGoAc-/0/1742750508313?e=1753315200&v=beta&t=XtCj07JjaFTQUhTioQkL5nzUowqNNI0ddyB7ikCh0D4",
-    "bio": "Full-stack developer. Leading the architecture and development strategy.",
+    "bio": "A full-stack developer on the dGit project, bridges the frontend and backend, contributing to both the user interface and the underlying architecture powering our decentralized platform.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/aniket-rajak-6172111b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "github": "https://github.com/alexjohnson",
@@ -16,7 +16,7 @@
     "name": "Mohit Mehta",
     "role": "Frontend Developer",
     "photo": "https://media.licdn.com/dms/image/v2/D5603AQHC_0iMZMmbcw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711189039921?e=1753315200&v=beta&t=x6TgV364oh9u0A4bWCkQc-Lp4FM-dQp5PqNcMHqsR-Q",
-    "bio": "Creative designer focusing on user experience and interface design. Passionate about creating intuitive and beautiful digital experiences.",
+    "bio": "A frontend developer for the dGit project, focuses on building intuitive and responsive user interfaces, enhancing user experience through clean design and seamless navigation.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/mohit-mehta-019045240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "github": "https://github.com/mohitmehta60",
@@ -28,7 +28,7 @@
     "name": "Nakul Saini",
     "role": "Frontend Developer",
     "photo": "https://media.licdn.com/dms/image/v2/D5603AQGx7plm-6e3hA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728472126492?e=1753315200&v=beta&t=3nohypIgFY_hiZA3mhERU0x5meaD3UKGw3OAEcwB7yk",
-    "bio": "React specialist with a focus on component architecture and state management. Creating responsive and accessible user interfaces.",
+    "bio": "A frontend developer for the dGit project, contributes to building sleek user interfaces while also managing team progress, ensuring smooth collaboration and timely updates.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/nakul-saini-4ba67328a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "github": "https://github.com/Nakulsaini07-coder",
@@ -40,7 +40,7 @@
     "name": "Sankalp Goyal",
     "role": "Backend Developer",
     "photo": "https://media.licdn.com/dms/image/v2/D4E03AQHqCW6F5a_G5A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696788936082?e=1753315200&v=beta&t=bHBj3iq8Are8odX_VMMWvf0c01aiNzjZlEOohJNaZMo",
-    "bio": "Specializing in API design, database architecture, and server optimization. Committed to building scalable and efficient systems.",
+    "bio": "A core member of the backend team in the dGit project, contributing to API development and integrating decentralized technologies to power the project's smart contract and data infrastructure.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/sankalp-goyal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "github": "https://github.com/snklp04",
@@ -50,9 +50,9 @@
   {
     "id": 5,
     "name": "Shubham Shoora",
-    "role": "Backend Developer",
+    "role": "Blockchain Developer",
     "photo": "https://media.licdn.com/dms/image/v2/D5603AQEZPGVNqP4V_Q/profile-displayphoto-shrink_800_800/B56Zbfsqg3GoAc-/0/1747509750633?e=1753315200&v=beta&t=owDtHMj0kSeICPVsRrGCIHlR6vg3FRPcKdAEYVuzXJ0",
-    "bio": "Server-side specialist. Skilled in API development, microservices, and integration pipelines — making sure every git push is fast, secure, and future-proof.",
+    "bio": "Leading the blockchain integration for the dGit project, developing smart contracts and implementing decentralized storage solutions to ensure transparency and trust in the platform.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/shubham-shoora-6008192a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "github": "https://github.com/Shubham-Singh-Shoora",
@@ -62,9 +62,9 @@
   {
     "id": 6,
     "name": "Suyash Bajpai",
-    "role": "Backend Developer",
+    "role": "System Designer",
     "photo": "https://media.licdn.com/dms/image/v2/D5603AQHXH2yowpel2A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696654549048?e=1753315200&v=beta&t=EpAUqJoMoWVj4fsT1_kMEtBkurWSuZvsAVDwBR99_oE",
-    "bio": "Developer with a love for clean code and performance optimization.",
+    "bio": "The mind behind the software design of the dGit project, leads the creation of system diagrams and architecture planning, while also supporting the backend team in implementing core functionalities.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/suyash-bajpai-05ba7428a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "github": "https://github.com/suyashbajpai-hi",
