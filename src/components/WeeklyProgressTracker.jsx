@@ -115,7 +115,7 @@ const WeeklyProgressTracker = () => {
   return (
     <div
       id="weekly-progress"
-      className="w-full px-0 py-16 bg-gradient-to-br from-slate-50 to-blue-50 pb-5 rounded-2xl"
+      className="w-full px-2 xs:px-4 sm:px-6 py-8 xs:py-12 sm:py-16 bg-transparent pb-5 rounded-2xl"
     >
       <div className="text-center mb-12">
         <motion.div
@@ -124,12 +124,12 @@ const WeeklyProgressTracker = () => {
           transition={{ duration: 0.6 }}
         >
           <div className="flex items-center justify-center gap-2 mb-4">
-            <GitBranch className="w-8 h-8 text-blue-600" />
+            <GitBranch className="w-25 h-25 text-blue-600" />
             <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               DGit Weekly Progress Tracker
             </h2>
           </div>
-          <p className="text-gray-600 text-lg">
+          <p className="text-white-600 text-lg">
             Track our weekly development progress
           </p>
         </motion.div>
