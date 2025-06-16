@@ -295,5 +295,47 @@
     "date": "2025-06-13",
     "content": "Updated today's progress in the Update Tracker app - 13-06-2025",
     "media": null
+  },
+  {
+    "id": 35,
+    "memberName": "Mohit Mehta",
+    "date": "2025-06-16",
+    "content": "Make the dGit Update Tracker more insightful and user-friendly",
+    "media": null
+  },
+  {
+    "id": 36,
+    "memberName": "Shubham Shoora",
+    "date": "2025-06-16",
+    "content": "Created Canister in the backend for the user dashboard",
+    "media": null
+  },
+  {
+    "id": 37,
+    "memberName": "Aniket Rajak",
+    "date": "2025-06-16",
+    "content": "Working on Milestone 2",
+    "media": null
+  },
+  {
+    "id": 38,
+    "memberName": "Sankalp Goyal",
+    "date": "2025-06-16",
+    "content": "Learning for Milestone 2",
+    "media": null
+  },
+  {
+    "id": 39,
+    "memberName": "Suyash Bajpai",
+    "date": "2025-06-16",
+    "content": "Learning for Milestone 2",
+    "media": null
+  },
+  {
+    "id": 40,
+    "memberName": "Nakul Saini",
+    "date": "2025-06-16",
+    "content": "Updated today's progress in the Update Tracker app - 16-06-2025",
+    "media": null
   }
 ]
