@@ -26,8 +26,14 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-950 text-white pt-14 pb-8">
-      <div className="container mx-auto px-4">
+    <footer className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-950 text-enhanced pt-16 pb-8 relative overflow-hidden">
+      {/* Background decorative elements */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-0 left-0 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl"></div>
+      </div>
+
+      <div className="container-responsive relative z-10">
         <motion.div
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12"
           initial="hidden"
@@ -39,43 +45,32 @@ const Footer = () => {
           <motion.div variants={itemVariants}>
             <div className="footer-section">
               <div className="footer-logo">
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    fontWeight: "bold",
-                  }}
-                >
+                <div className="flex items-center font-bold mb-4">
                   <img
                     src="/media/logo.png"
                     alt="Team H Logo"
-                    style={{
-                      width: "48px",
-                      height: "48px",
-                      borderRadius: "50%",
-                      marginRight: "12px",
-                    }}
+                    className="w-12 h-12 rounded-full mr-3 ring-2 ring-blue-400/30"
                   />
-                  <span style={{ fontSize: "2rem" }}>Team H</span>
+                  <span className="text-2xl gradient-text">Team H</span>
                 </div>
               </div>
-              <p className="text-gray-400 mb-4 leading-relaxed">
+              <p className="text-secondary-enhanced mb-4 leading-relaxed">
                 A collaborative project tracking and management application built
-                with modern web technologies.
+                with modern web technologies for seamless team coordination.
               </p>
             </div>
           </motion.div>
 
           {/* Quick Links */}
           <motion.div variants={itemVariants}>
-            <h3 className="text-xl font-bold mb-4 border-b border-gray-700 pb-2">
+            <h3 className="text-xl font-bold mb-6 text-enhanced border-b border-white/20 pb-2">
               Quick Links
             </h3>
-            <ul className="space-y-2">
+            <ul className="space-y-3">
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:text-indigo-400 transition-colors font-medium"
+                  className="text-secondary-enhanced hover:text-blue-400 transition-colors font-medium hover:translate-x-1 transform duration-200 inline-block"
                 >
                   Home
                 </a>
@@ -83,7 +78,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#team"
-                  className="text-gray-400 hover:text-indigo-400 transition-colors font-medium"
+                  className="text-secondary-enhanced hover:text-blue-400 transition-colors font-medium hover:translate-x-1 transform duration-200 inline-block"
                 >
                   Team
                 </a>
@@ -91,7 +86,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#updates"
-                  className="text-gray-400 hover:text-indigo-400 transition-colors font-medium"
+                  className="text-secondary-enhanced hover:text-blue-400 transition-colors font-medium hover:translate-x-1 transform duration-200 inline-block"
                 >
                   Updates
                 </a>
@@ -99,7 +94,7 @@ const Footer = () => {
               <li>
                 <a
                   href="https://github.com/Nakulsaini07-coder/TeamH_Update_Tracker"
-                  className="text-gray-400 hover:text-indigo-400 transition-colors font-medium"
+                  className="text-secondary-enhanced hover:text-blue-400 transition-colors font-medium hover:translate-x-1 transform duration-200 inline-block"
                 >
                   GitHub
                 </a>
@@ -109,42 +104,44 @@ const Footer = () => {
 
           {/* Contact */}
           <motion.div variants={itemVariants}>
-            <h3 className="text-xl font-bold mb-4 border-b border-gray-700 pb-2">
+            <h3 className="text-xl font-bold mb-6 text-enhanced border-b border-white/20 pb-2">
               Contact
             </h3>
-            <div className="flex items-center space-x-3 mb-3">
-              <FaEnvelope className="text-indigo-400" />
-              <a
-                href="mailto:nakullsaini07@gmail.com"
-                className="text-gray-300 hover:text-indigo-400 transition-colors"
-              >
-                nakullsaini07@gmail.com
-              </a>
-            </div>
-            <div className="flex items-center space-x-3 mb-3">
-              <FaEnvelope className="text-indigo-400" />
-              <a
-                href="mailto:g.mehta1971@gmail.com"
-                className="text-gray-300 hover:text-indigo-400 transition-colors"
-              >
-                g.mehta1971@gmail.com
-              </a>
+            <div className="space-y-4">
+              <div className="flex items-center space-x-3">
+                <FaEnvelope className="text-blue-400 flex-shrink-0" />
+                <a
+                  href="mailto:nakullsaini07@gmail.com"
+                  className="text-secondary-enhanced hover:text-blue-400 transition-colors text-sm"
+                >
+                  nakullsaini07@gmail.com
+                </a>
+              </div>
+              <div className="flex items-center space-x-3">
+                <FaEnvelope className="text-blue-400 flex-shrink-0" />
+                <a
+                  href="mailto:g.mehta1971@gmail.com"
+                  className="text-secondary-enhanced hover:text-blue-400 transition-colors text-sm"
+                >
+                  g.mehta1971@gmail.com
+                </a>
+              </div>
             </div>
           </motion.div>
 
           {/* Social */}
           <motion.div variants={itemVariants}>
-            <h3 className="text-xl font-bold mb-4 border-b border-gray-700 pb-2">
+            <h3 className="text-xl font-bold mb-6 text-enhanced border-b border-white/20 pb-2">
               Follow Us
             </h3>
-            <div className="flex space-x-5 mt-2">
+            <div className="flex space-x-4">
               {socialLinks.map((link, index) => (
                 <motion.a
                   key={index}
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-indigo-400 transition-colors text-2xl bg-gray-800 hover:bg-gray-700 rounded-full p-2 shadow-md"
+                  className="text-secondary-enhanced hover:text-blue-400 transition-all duration-300 text-2xl glass-effect hover:bg-white/10 rounded-full p-3 shadow-lg"
                   whileHover={{ y: -5, scale: 1.15 }}
                   whileTap={{ scale: 0.95 }}
                   aria-label={link.label}
@@ -157,11 +154,11 @@ const Footer = () => {
         </motion.div>
 
         {/* Divider */}
-        <div className="border-t border-gray-800 my-8"></div>
+        <div className="border-t border-white/20 my-8"></div>
 
         {/* Copyright */}
         <motion.div
-          className="text-center text-gray-500 text-sm"
+          className="text-center text-secondary-enhanced text-sm"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
@@ -169,7 +166,7 @@ const Footer = () => {
         >
           <p>
             © {new Date().getFullYear()}{" "}
-            <span className="font-semibold text-indigo-400">
+            <span className="font-semibold gradient-text">
               Team H Project
             </span>
             . All rights reserved.

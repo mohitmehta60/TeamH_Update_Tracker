@@ -7,7 +7,7 @@ import Updates from "./components/Updates";
 import Footer from "./components/Footer";
 import WeeklyProgressTracker from "./components/WeeklyProgressTracker";
 import GitHubCommitTracker from "./components/GitHubCommitTracker";
-import VideoUpdateTracker from "./components/VideoUpdateTracker"; // Add this import
+import VideoUpdateTracker from "./components/VideoUpdateTracker";
 import "./App.css";
 
 function App() {
@@ -36,119 +36,67 @@ function App() {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center min-h-screen bg-gray-900">
+      <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
         <motion.div
-          animate={{
-            scale: [1, 1.2, 1],
-          }}
-          transition={{
-            duration: 1.5,
-            repeat: Infinity,
-            repeatType: "loop",
-          }}
-          className="text-2xl font-semibold text-blue-400"
+          className="text-center"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
         >
-          Loading...
+          <motion.div
+            animate={{
+              scale: [1, 1.2, 1],
+              rotate: [0, 180, 360],
+            }}
+            transition={{
+              duration: 2,
+              repeat: Infinity,
+              repeatType: "loop",
+            }}
+            className="w-16 h-16 border-4 border-blue-400 border-t-transparent rounded-full mx-auto mb-4"
+          />
+          <motion.p
+            animate={{
+              opacity: [0.5, 1, 0.5],
+            }}
+            transition={{
+              duration: 1.5,
+              repeat: Infinity,
+              repeatType: "loop",
+            }}
+            className="text-xl font-semibold gradient-text"
+          >
+            Loading Team H Updates...
+          </motion.p>
         </motion.div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-900">
+    <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="mt-16 md:mt-20">
+      
+      <main className="mt-16 lg:mt-20">
         <ProjectOverview />
-
-        <section id="video-update" className="py-10 bg-gradient-to-br from-gray-800 via-gray-800 to-gray-800">
-          <div className="container mx-auto px-4">
+        <VideoUpdateTracker />
+        <WeeklyProgressTracker />
+        
+        <section id="github-commits">
+          <div className="container-responsive">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <VideoUpdateTracker />
+              <GitHubCommitTracker />
             </motion.div>
           </div>
         </section>
 
-        <section
-          id="weekly-progress"
-          className="pt-10 pb-2 bg-gradient-to-br from-gray-800 via-gray-800 to-gray-800"
-        >
-          <div className="container mx-auto px-4">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-            ></motion.div>
-            <WeeklyProgressTracker />
-          </div>
-        </section>
-
-        {/* New section for GitHubCommitTracker */}
-        <section
-          id="github-commits"
-          className="py-10 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"
-        >
-          <div className="container mx-auto px-4">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-            >
-              <h2 className="text-3xl font-bold mb-8 text-center gradient-text">
-                GitHub Commit Tracker
-              </h2>
-            </motion.div>
-            <GitHubCommitTracker />
-          </div>
-        </section>
-
-        <section
-          id="updates"
-          className="py-20 bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800"
-        >
-          <div className="container mx-auto px-4">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-            >
-              <h2 className="text-4xl font-bold mb-12 text-center gradient-text">
-                Project Updates
-              </h2>
-            </motion.div>
-            <Updates updates={updates} teamMembers={teamMembers} />
-          </div>
-        </section>
-
-        <section
-          id="team"
-          className="py-10 bg-gradient-to-br from-gray-800 via-gray-800 to-gray-800"
-        >
-          <div className="container mx-auto px-4">
-            {/* <GitHubCommitTracker /> Removed from here */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-            >
-              <h2
-                className="text-4xl font-bold mb-2 text-center gradient-text"
-                style={{ fontSize: "4rem", lineHeight: "8rem" }}
-              >
-                Our Team
-              </h2>
-            </motion.div>
-            <TeamMembers members={teamMembers} />
-          </div>
-        </section>
+        <Updates updates={updates} teamMembers={teamMembers} />
+        <TeamMembers members={teamMembers} />
       </main>
 
       <Footer />
